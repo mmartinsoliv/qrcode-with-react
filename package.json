@@ -1,6 +1,6 @@
 {
   "name": "qrcode-with-react",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "QRCode Component",
   "author": "Matheus Martins <mmartinsolliv@gmail.com>",
   "type": "module",
