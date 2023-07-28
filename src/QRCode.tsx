@@ -2,7 +2,7 @@
 // QRCode.tsx
 import QRCodeImpl from "qr.js/lib/QRCode";
 import ErrorCorrectLevel from "qr.js/lib/ErrorCorrectLevel";
-import React, { forwardRef, ForwardedRef } from "react";
+import React, { ForwardedRef } from "react";
 import QRCodeSvg from "./QRCodeSvg";
 
 interface QRCodeProps {
@@ -46,4 +46,4 @@ const QRCode: React.ForwardRefRenderFunction<SVGSVGElement, QRCodeProps> = (
 
 QRCode.displayName = "QRCode";
 
-export default forwardRef<SVGSVGElement, QRCodeProps>(QRCode);
+export { QRCode }
